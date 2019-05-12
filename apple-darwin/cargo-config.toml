@@ -1,0 +1,2 @@
+[target.x86_64-apple-darwin]
+linker = "/usr/local/bin/crossbuild-linker"

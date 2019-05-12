@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+# Adapted from https://github.com/japaric/rust-cross/issues/22#issuecomment-409065280
+# Have to set the minimum macos version here for thread-local vars
+exec crossbuild cc -mmacosx-version-min=10.7 "\$@"
